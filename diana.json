@@ -1,0 +1,45 @@
+{
+  "partes": [],
+  "items": [
+    {
+      "id" : 1 
+    },
+    {
+      "id": 2
+    }
+  ],
+  
+  
+  "detalle": [],
+  
+  
+  "descripcion": [
+    {
+      "id": 1,
+      "nombre": "Descripción del tema"
+    },
+    {
+      "id": 2,
+      "nombre": "Planteamiento del problema"
+    },
+    {
+      "id": 3,
+      "nombre": "Hipótesis"
+    },
+    {
+      "id": 4,
+      "nombre": "Objetivo general"
+    },
+    {
+      "id": 5,
+      "nombre": "Título de la investigación"
+    },
+    {
+      "id": 6,
+      "nombre": "Justificación"
+    },
+    {
+      "id": 7
+    }
+  ]
+}

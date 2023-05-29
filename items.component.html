@@ -1,0 +1,31 @@
+<h1>Registrar proyecto</h1>
+{{Items | json}}
+<div class="mb-3">
+  <label for="nombre" class="form-label">nombre</label>
+  <input type="text" class="form-control" [(ngModel)]="items.nombre" id="nombre">
+</div>
+<select class="form-select" mb-5 [(ngModel)] = "items.descripcion">
+  <option ngFor="let Items of descripcion"[value]="items.id">{{items.nombre}}</option>
+  
+  <option value="1">Descripción del tema</option>
+
+  <option value="2">Planteamiento del problema</option>
+  
+  <option value="3">Hipótesis</option>
+  
+  <option value="4">Objetivo general</option>
+  
+  <option value="5">Título de la investigación</option>
+  
+  <option value="6">Justificación</option>
+</select>
+
+
+
+
+
+
+<button type="button1" (click)="onSave()" class="btn btn-success mt-5">Guardar</button>
+
+
+   
